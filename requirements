@@ -1,0 +1,5 @@
+streamlit
+pandas
+openpyxl if you have OpenAI subscription
+ollama (Need to download locally)
+requests
