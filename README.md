@@ -118,13 +118,9 @@ Which customer generated the highest revenue this quarter?
 The Assistant:
 
 - Converts question into SQL
-
 - Aggregates data
-
 - Sorts by revenue
-
 - Returns top customer instantly
-
 - Displays a visualization
 
 🎯 Why This Project?
@@ -132,11 +128,7 @@ The Assistant:
 - This project demonstrates:
 
 - LLM + SQL integration
-
 - Local AI deployment (No OpenAI API required)
-
 - Real-time analytics
-
 - Business intelligence automation
-
 - Practical AI application for decision-making
