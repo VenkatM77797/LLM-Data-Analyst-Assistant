@@ -8,7 +8,7 @@
 
 An AI-powered **Data Analyst Assistant** that converts natural language questions into SQL queries and generates real-time insights from CSV/Excel datasets.
 
-Instead of manually writing SQL queries, users can simply ask business questions in plain English — and the assistant automatically:
+Instead of manually writing SQL queries, users can simply ask business questions in plain English and the assistant automatically:
 
 - Generates SQL queries  
 - Executes them on structured data  
