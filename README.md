@@ -111,12 +111,11 @@ http://localhost:8501
 
 ## 📂 Project Structure
 
-| File / Folder | Description |
-|---------------|------------|
-| `app.py` | Main Streamlit application file |
-| `requirements.txt` | List of required Python packages |
-| `README.md` | Project documentation |
-| `sample_data/` | Sample datasets for testing |
+LLM-Data-Analyst-Assistant
+├── app.py # Main Streamlit application
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── sample_data/ # Example datasets for testing
 
 
 📊 Example Use Case
