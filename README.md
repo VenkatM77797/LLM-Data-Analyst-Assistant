@@ -1,10 +1,6 @@
 # 📊 LLM Data Analyst Assistant  
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)  
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)  
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)  
-![LLM](https://img.shields.io/badge/LLM-gemma3-blue?style=for-the-badge)  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)  ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge) ![LLM](https://img.shields.io/badge/LLM-gemma3-blue?style=for-the-badge)  
 
 ---
 
@@ -75,10 +71,12 @@ This completely removes the need for manual SQL writing.
 git clone https://github.com/YOUR_USERNAME/LLM-Data-Analyst-Assistant.git
 cd LLM-Data-Analyst-Assistant
 
-2️⃣ Install Dependencies
+```
+
+2️⃣ **Install Dependencies**
 pip install streamlit pandas openpyxl requests
 
-3️⃣ Install Ollama (Local LLM)
+3️⃣ **Install Ollama (Local LLM)**
 
 Download from:
 
@@ -86,7 +84,7 @@ https://ollama.com/download
 
 Make sure Ollama Desktop is running.
 
-4️⃣ Ensure Model is Available
+4️⃣ **Ensure Model is Available**
 
 Use an installed model such as:
 
@@ -97,7 +95,7 @@ Check available models:
 
 Invoke-RestMethod http://localhost:11434/api/tags
 
-5️⃣ Run the App
+5️⃣ **Run the App**
 streamlit run app.py
 
 
