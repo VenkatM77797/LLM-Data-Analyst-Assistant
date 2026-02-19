@@ -74,3 +74,73 @@ This completely removes the need for manual SQL writing.
 ```bash
 git clone https://github.com/YOUR_USERNAME/LLM-Data-Analyst-Assistant.git
 cd LLM-Data-Analyst-Assistant
+
+2️⃣ Install Dependencies
+pip install streamlit pandas openpyxl requests
+
+3️⃣ Install Ollama (Local LLM)
+
+Download from:
+
+https://ollama.com/download
+
+Make sure Ollama Desktop is running.
+
+4️⃣ Ensure Model is Available
+
+Use an installed model such as:
+
+gemma3:4b
+
+
+Check available models:
+
+Invoke-RestMethod http://localhost:11434/api/tags
+
+5️⃣ Run the App
+streamlit run app.py
+
+
+Open in browser:
+
+http://localhost:8501
+
+📂 Project Structure
+LLM-Data-Analyst-Assistant/
+│
+├── app.py
+├── README.md
+├── requirements.txt
+└── sample_data/
+
+📊 Example Use Case
+
+👨‍💼 Business Manager asks:
+
+Which customer generated the highest revenue this quarter?
+
+The Assistant:
+
+Converts question into SQL
+
+Aggregates data
+
+Sorts by revenue
+
+Returns top customer instantly
+
+Displays a visualization
+
+🎯 Why This Project?
+
+This project demonstrates:
+
+LLM + SQL integration
+
+Local AI deployment (No OpenAI API required)
+
+Real-time analytics
+
+Business intelligence automation
+
+Practical AI application for decision-making
