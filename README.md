@@ -74,30 +74,35 @@ cd LLM-Data-Analyst-Assistant
 ```
 
 2️⃣ **Install Dependencies**
+``` bash
 pip install streamlit pandas openpyxl requests
+```
 
 3️⃣ **Install Ollama (Local LLM)**
 
 Download from:
-
+``` bash
 https://ollama.com/download
+```
 
 Make sure Ollama Desktop is running.
 
 4️⃣ **Ensure Model is Available**
 
 Use an installed model such as:
-
+``` bash
 gemma3:4b
-
+```
 
 Check available models:
-
+``` bash
 Invoke-RestMethod http://localhost:11434/api/tags
+```
 
 5️⃣ **Run the App**
+``` bash
 streamlit run app.py
-
+```
 
 Open in browser:
 
@@ -119,26 +124,26 @@ Which customer generated the highest revenue this quarter?
 
 The Assistant:
 
-Converts question into SQL
+- Converts question into SQL
 
-Aggregates data
+- Aggregates data
 
-Sorts by revenue
+- Sorts by revenue
 
-Returns top customer instantly
+- Returns top customer instantly
 
-Displays a visualization
+- Displays a visualization
 
 🎯 Why This Project?
 
-This project demonstrates:
+- This project demonstrates:
 
-LLM + SQL integration
+- LLM + SQL integration
 
-Local AI deployment (No OpenAI API required)
+- Local AI deployment (No OpenAI API required)
 
-Real-time analytics
+- Real-time analytics
 
-Business intelligence automation
+- Business intelligence automation
 
-Practical AI application for decision-making
+- Practical AI application for decision-making
