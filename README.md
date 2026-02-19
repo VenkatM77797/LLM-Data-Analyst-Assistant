@@ -105,16 +105,19 @@ streamlit run app.py
 ```
 
 Open in browser:
-
+``` bash
 http://localhost:8501
+```
 
-📂 Project Structure
-LLM-Data-Analyst-Assistant/
-│
-├── app.py
-├── README.md
-├── requirements.txt
-└── sample_data/
+## 📂 Project Structure
+
+| File / Folder | Description |
+|---------------|------------|
+| `app.py` | Main Streamlit application file |
+| `requirements.txt` | List of required Python packages |
+| `README.md` | Project documentation |
+| `sample_data/` | Sample datasets for testing |
+
 
 📊 Example Use Case
 
