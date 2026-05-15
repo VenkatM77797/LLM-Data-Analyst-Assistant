@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)  ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge) ![LLM](https://img.shields.io/badge/LLM-gemma3-blue?style=for-the-badge)  
 
 ---
-cccewcw
+ccc
 ## 🚀 What is this?
 
 An AI-powered **Data Analyst Assistant** that converts natural language questions into SQL queries and generates real-time insights from CSV/Excel datasets.
